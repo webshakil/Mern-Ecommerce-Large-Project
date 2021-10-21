@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import React from "react";
 
-class Login extends Component {
-    render() {
-        return (
-            <div>
-                <p>Login page</p>
-            </div>
-        );
-    }
-}
+const Login = () => {
+  return (
+    <div>
+      <p>Login</p>
+    </div>
+  );
+};
 
 export default Login;
